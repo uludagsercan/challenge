@@ -10,7 +10,10 @@ public class SuccessDataResult<T> extends DataResult {
     public SuccessDataResult(T data) {
         super(true, data);
     }
+<<<<<<< HEAD
     public SuccessDataResult(String message){
         super(true,message);
     }
+=======
+>>>>>>> 9eec08269d92308f92c9ec7e0783e5cd385d1e30
 }

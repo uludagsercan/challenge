@@ -12,9 +12,17 @@ import java.util.List;
 public interface CustomerService {
     Result add(Customer customer);
     Result update(Customer customer);
+<<<<<<< HEAD
     Result delete(int id);
     DataResult<List<Customer>> getAll();
     DataResult<Customer> getById(int id);
     DataResult<List<CustomerContainsDto>> getByNameContains(String name);
     DataResult<List<CustomerWithOrderDto>> getCustomerByOrdersIsNotContain();
+=======
+    Result delete(Customer customer);
+    DataResult<List<Customer>> getAll();
+    DataResult<Customer> getById(int id);
+    DataResult<List<CustomerContainsDto>> getByNameContains(String name);
+    DataResult<List<CustomerWithOrderDto>> getByCustomerWithOrder();
+>>>>>>> 9eec08269d92308f92c9ec7e0783e5cd385d1e30
 }
